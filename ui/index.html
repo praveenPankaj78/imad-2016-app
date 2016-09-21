@@ -1,18 +1,196 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="/ui/style.css" rel="stylesheet" />
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+            .SubHeading {
+                color: rgb(138, 5, 138);
+            }        
+        </style>
     </head>
     <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
-        </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! I am Praveen. This is my first Webapp
-	    <h3>This Paragraph was created locally.</h3>
-        </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
+       
+        <h1>Luffy's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#kheer">Kheer</a></li>
+            <li><a href="#Ladoo">Besan Ladoo</a></li>
+            <li><a href="#Jalebi">Jalebi</a></li>
+        </ol>
+        
+        <h2 id="kheer" class="SubHeading">Kheer</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Kheer.jpg" width="300" alt="A rice kheer in a china bowl with kaju and badam on top">
+        <!--Taken from http://www.wikihow.com/Make-Kheer -->
+        <ul>
+            <li>Time: 30 mins</li>
+            <li>Serves: 4 persons</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>slightly overcooked rice</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>milk</td>
+                    <td>2 cup</td>
+                </tr>
+                 <tr>
+                    <td>sugar</td>
+                    <td>3 tablespoon</td>
+                </tr>
+                  <tr>
+                    <td>raisins</td>
+                    <td>1 tablespoon</td>
+                </tr>
+                  <tr>
+                    <td>pistachios</td>
+                    <td>1 tablespoon</td>
+                </tr>
+                  <tr>
+                    <td>saffron</td>
+                    <td>saffron</td>
+                </tr>
+                  <tr>
+                    <td>chopped almonds</td>
+                    <td>1 tablespoon</td>
+                </tr>
+                  <tr>
+                    <td>powdered cardamom</td>
+                    <td>1/8 tablespoon</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Put the raisins in a little bit of water to puff them up.
+</p>
+        <p><strong>Step 2:</strong> Heat the pan over a medium gas flame or electric stove setting
+</p>
+        <p><strong>Step 3:</strong> While the pan is heating up, grind the saffron and a pinch of sugar with a mortar and pestle. Set it to the side
+</p>
+        <p><strong>Step 4:</strong> Add the cup of slightly overcooked rice and 2 cups of whole milk to your heated pan. Lightly stir this mixture.
+</p>
+        <p><strong>Step 5:</strong> Add your mixture of saffron and sugar to the milk and rice in the pan.
+</p>
+        <p><strong>Step 6:</strong> Add the sugar before the raisins and mixed nuts.
+</p>
+        <p><strong>Step 7:</strong> Drain the raisins and add them to the mixture along with the 1 tablespoon chopped pistachios and 1 tablespoon chopped almonds.
+</p>
+        <p><strong>Step 8:</strong> Remove the pan from the heat and add the 1/8 teaspoon powdered cardamom.
+</p>
+
+<!--Steps for Besan Ladoo -->
+    <h2 id="Ladoo" class="SubHeading">Besan Ladoo</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Besan_ke_laddoo_Indian_festivals_hero.JPG/220px-Besan_ke_laddoo_Indian_festivals_hero.JPG" width="300" alt="Lots of Besan ladoo">
+        <ul>
+            <li>Time: 16mins</li>
+            <li>Serves: 10 large ladoos</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <th>Ingredients</th>
+                <th>Quantity</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>coarse besan</td>
+                    <td>2 cup</td>
+                </tr>
+                <tr>
+                    <td>ghee</td>
+                    <td>1/2 to 2/3 cups</td>
+                </tr>
+                <tr>
+                    <td>powdered sugar</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>cardamom powder</td>
+                    <td>1 tablespoon</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1</strong>: Roast the besan over medium-low heat</p>
+        <p><strong>Step 2</strong>: Melt and add the ghee.</p>
+        <p><strong>Step 3</strong>: Add cardamom and milk</p>
+        <p><strong>Step 4</strong>: Let it cool in a mixing bowl</p>
+        <p><strong>Step 5</strong>: Mix in powdered sugar</p>
+        <p><strong>Step 6</strong>: Shape into balls.</p>
+        
+<!--Steps for Jalebi -->
+    <h2 id="Jalebi" class="SubHeading">Jalebi</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Awadhi_jalebi.jpg" width="300" alt="Lots of Jalebi">
+        <ul>
+            <li>Time: 50mins</li>
+            <li>Serves: 4 people</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <th>Ingredients</th>
+                <th>Quantity</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>all-purpose flour</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>gram</td>
+                    <td>2 tablespoons</td>
+                </tr>
+                <tr>
+                    <td>plain yogurt</td>
+                    <td>3/4 cup</td>
+                </tr>
+                <tr>
+                    <td>cardamom powder</td>
+                    <td>1 tablespoon</td>
+                </tr>
+                <tr>
+                    <td>baking soda</td>
+                    <td>1/2 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>melted ghee</td>
+                    <td>2 tablespoon</td>
+                </tr>
+                <tr>
+                    <td>saffron</td>
+                    <td>1/4 tsp</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1</strong>: Mix up the batter</p>
+        <p><strong>Step 2</strong>: Adjust the thickness of the batter.</p>
+        <p><strong>Step 3</strong>: Leave the batter to ferment.</p>
+        <p><strong>Step 4</strong>: Make the batter</p>
+        <p><strong>Step 5</strong>: Adjust the batter, if needed.</p>
+        <p><strong>Step 6</strong>: Set the batter aside for 15 minutes..</p>
+        <p><strong>Step 5</strong>: Boil the syrup.</p>
+        <p><strong>Step 5</strong>: Test the consistency of the syrup.</p>
+        <p><strong>Step 5</strong>: Remove the syrup from the heat.</p>
+        <p><strong>Step 5</strong>: Heat the oil.</p>
+        <p><strong>Step 5</strong>: Load the batter into a dispenser while the oil is heating.</p>
+        <p><strong>Step 5</strong>: Pour some of the batter into the oil.</p>
+        <p><strong>Step 5</strong>: Fry the jalebi until they are crisp and golden brown.</p>
+        <p><strong>Step 5</strong>: Soak the jalebi in the syrup.</p>
+        <p><strong>Step 5</strong>: Remove the jalebi from the syrup and serve.</p>
+        
+    <p><em>Source: <a target="_blank" href="http://www.epicurious.com/">Some recipes websites</a></em></p>
+    
     </body>
 </html>
