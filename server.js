@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {
-    'article-one': {
+    'article-one':{
       title: 'Article One | Praveen',
       heading: 'Article One',
       date: 'Sep 20, 2016',
@@ -28,7 +28,7 @@ var articles = {
             </p>
             `,
     },
-    'article-two': {
+    'article-two':{
       title: 'Article Two | Praveen',
       heading: 'Article Two',
       date: 'Sep 21, 2016',
@@ -38,7 +38,7 @@ var articles = {
             </p>
             `,
     },
-    'article-three': {
+    'article-three':{
       title: 'Article Three | Praveen',
       heading: 'Article Three',
       date: 'Sep 22, 2016',
@@ -51,7 +51,7 @@ var articles = {
     
 };
 function createTemplate(data) {
-    <!--var title = data.title;-->
+    var title = data.title;
     var date = data.date;
     var heading = data.heading;
     var content = data.content;
@@ -60,7 +60,7 @@ function createTemplate(data) {
                 <!DOCTYPE html>
 <html>
     <head>
-        <!--<title>${title}</title> -->
+        <title>${title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link href="/ui/style.css" rel="stylesheet" />
     </head>
