@@ -1,7 +1,7 @@
 body {
     background-image: url("http://img14.deviantart.net/4617/i/2012/205/3/a/thousand_sunny_by_ratarsed-d58ene6.png");
     background-repeat: no-repeat;
-    background-position: 50% 10%;
+    background-position: 50% 180%;
     font-family: sans-serif;
     background-color: lightgrey;
     margin-top: 60px;
@@ -26,7 +26,7 @@ body {
 .container {
                     max-width: 800px;
                     margin: 0 auto;
-                    color: #150c08;
+                    color: rgb(71, 207, 146);
                     font-family: sans-serif;
                     padding-left: 50px;
                     padding-right: 50px;
