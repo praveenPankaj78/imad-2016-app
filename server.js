@@ -15,51 +15,6 @@ var config = {
 var app = express();
 app.use(morgan('combined'));
 
-var articles = {
-    'article-one':{
-      title: 'Article One | Praveen',
-      heading: 'Article One',
-      date: 'Sep 20, 2016',
-      content: `
-        <p>
-             This is the content of my first article. This is the content of my first article. This is the content of my first article.
-            This is the content of my first article. This is the content of my first article. This is the content of my first article.
-            This is the content of my first article. This is the content of my first article. This is the content of my first article.
-            </p>
-            <p>
-            This is the content of my first article. This is the content of my first article. This is the content of my first article.
-             This is the content of my first article. This is the content of my first article. This is the content of my first article.
-             This is the content of my first article. This is the content of my first article. This is the content of my first article.
-            </p>
-            <p>
-            This is the content of my first article. This is the content of my first article. This is the content of my first article.
-             This is the content of my first article. This is the content of my first article. This is the content of my first article.
-             This is the content of my first article. This is the content of my first article. This is the content of my first article.
-            </p>
-            `,
-    },
-    'article-two':{
-      title: 'Article Two | Praveen',
-      heading: 'Article Two',
-      date: 'Sep 21, 2016',
-      content: `
-        <p>
-             This is the content of my second article. 
-            </p>
-            `,
-    },
-    'article-three':{
-      title: 'Article Three | Praveen',
-      heading: 'Article Three',
-      date: 'Sep 22, 2016',
-      content: `
-        <p>
-             This is the content of my third article. 
-            </p>
-            `,
-    },
-    
-};
 function createTemplate (data) {
     var title = data.title;
     var date = data.date;
