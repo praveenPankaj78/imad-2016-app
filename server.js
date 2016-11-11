@@ -99,7 +99,7 @@ app.post('/login', function(req, res) {
        }
        else {
            if(result.rows.length === 0){
-               res.send(401).send('username/password is invalid');
+               res.send(403).send('username/password is invalid');
                //alert("1st");
            } else {
                // Match the password
@@ -109,7 +109,7 @@ app.post('/login', function(req, res) {
                if (hashedPassword === dbString) {
                    res.send('credentials correct! ');
                } else {
-                   res.send(402).send('username/password is invalid');
+                   res.send(403).send('username/password is invalid');
                    //alert("2nd");
                }
            }
